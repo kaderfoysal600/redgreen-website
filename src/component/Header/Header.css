@@ -1,0 +1,19 @@
+.series-slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+}
+.menu > li {
+  position: static !important;
+}
+
+.navbar {
+  justify-content: space-between !important;
+}
+.navbar-start {
+  width: auto !important;
+}
