@@ -72,10 +72,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-2 pt-10 px-4 pb-2">
+      <div className="container m-auto grid grid-cols-2 gap-2 pt-10 px-4 pb-2">
         <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
-          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-1">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 14{" "}
             </h1>
@@ -98,7 +98,7 @@ const Hero = () => {
         </div>
         <div className="bg-[url(../../../src/assets/banner-image/hero2.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 16 & 18 MERCURY{" "}
             </h1>
@@ -121,7 +121,7 @@ const Hero = () => {
         </div>
         <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 14{" "}
             </h1>
@@ -144,7 +144,7 @@ const Hero = () => {
         </div>
         <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 14{" "}
             </h1>
@@ -167,7 +167,7 @@ const Hero = () => {
         </div>
         <div className="bg-[url(../../../src/assets/banner-image/hero2.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 16 & 18 MERCURY{" "}
             </h1>
@@ -190,7 +190,7 @@ const Hero = () => {
         </div>
         <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+            <h1 className="text-white font-semibold text-2xl">
               {" "}
               NEW RAZER BLADE 14{" "}
             </h1>
