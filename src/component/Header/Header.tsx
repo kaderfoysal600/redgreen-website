@@ -1,7 +1,7 @@
 import "./Header.css";
 const Header = () => {
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,40 +49,72 @@ const Header = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li className="group/item">
-            <a>Laptop</a>
-            <div className="group-hover/item:block hidden w-full min-w-full series-slide bg-red-200 absolute top-12 left-0">
-              <div className="series-slide-card-container flex align-center justify-center">
+        <ul className="px-1 flex items-center gap-8 ">
+          <li className="group/item min-h-[38px] mt-5 hover:border-b-[2px] border-rose-600  cursor-pointer">
+            <a className=" ">Laptop</a>
+            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-12 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+              <div className="series-slide-card-container flex align-center justify-center gap-10">
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
-                    className="h-60 object-cover"
+                    className="max-w-[120px] object-cover"
                     src="../../../src/assets/product.webp"
                     alt=""
                   />
                   <div className="text">Demo Product</div>
                 </div>
                 <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img src="../../../src/assets/product.webp" alt="" />
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src="../../../src/assets/product.webp"
+                    alt=""
+                  />
                   <div className="text">Demo Product</div>
                 </div>
                 <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img src="../../../src/assets/product.webp" alt="" />
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src="../../../src/assets/product.webp"
+                    alt=""
+                  />
+                  <div className="text">Demo Product</div>
+                </div>
+                <div className="series-slide-card flex items-center flex-col justify-center">
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src="../../../src/assets/product.webp"
+                    alt=""
+                  />
+                  <div className="text">Demo Product</div>
+                </div>
+                <div className="series-slide-card flex items-center flex-col justify-center">
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src="../../../src/assets/product.webp"
+                    alt=""
+                  />
+                  <div className="text">Demo Product</div>
+                </div>
+                <div className="series-slide-card flex items-center flex-col justify-center">
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src="../../../src/assets/product.webp"
+                    alt=""
+                  />
                   <div className="text">Demo Product</div>
                 </div>
               </div>
             </div>
           </li>
-          <li>
+          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Phones</a>
           </li>
-          <li>
+          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Audio</a>
           </li>
-          <li>
+          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Accessories</a>
           </li>
-          <li>
+          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Offers</a>
           </li>
         </ul>
