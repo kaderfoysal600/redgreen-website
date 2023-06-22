@@ -2,6 +2,10 @@ import "./Hero.css";
 import bannerHerro1 from "../../../src/assets/banner-image/hero1.jpg";
 import bannerHerro2 from "../../../src/assets/banner-image/hero2.jpg";
 import bannerHerro3 from "../../../src/assets/banner-image/hero1.jpg";
+import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
+import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
+import product3 from "../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp";
+import product4 from "../../../src/assets/mobile/ej-pc.png.thumb.webp";
 const Hero = () => {
   return (
     <div>
@@ -120,7 +124,7 @@ const Hero = () => {
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
                 className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src="../../../src/assets/mobile/10T-pc.png.thumb.webp"
+                src={product1}
                 alt=""
               />
             </div>
@@ -161,7 +165,7 @@ const Hero = () => {
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
                 className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src="../../../src/assets/mobile/10T-pc.png.thumb.webp"
+                src={product2}
                 alt=""
               />
             </div>
@@ -202,7 +206,7 @@ const Hero = () => {
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
                 className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src="../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp"
+                src={product3}
                 alt=""
               />
             </div>
@@ -243,7 +247,7 @@ const Hero = () => {
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
                 className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src="../../../src/assets/mobile/ej-pc.png.thumb.webp"
+                src={product4}
                 alt=""
               />
             </div>
