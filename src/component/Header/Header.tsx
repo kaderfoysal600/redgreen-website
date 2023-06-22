@@ -1,4 +1,7 @@
 import "./Header.css";
+import logo from "/src/assets/brand/REDGREEN2.png";
+import demoProduct from "../../../src/assets/product.webp";
+import profile from "../../../src/assets/kaderfoysal.jpg";
 const Header = () => {
   return (
     <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea]">
@@ -44,11 +47,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex items-center gap-2">
-          <img
-            src="/src/assets/brand/REDGREEN2.png"
-            className="w-32 h-auto"
-            alt=""
-          />
+          <img src={logo} className="w-32 h-auto" alt="" />
           {/* <a className="text-xl">Redgreen</a> */}
         </div>
       </div>
@@ -61,7 +60,19 @@ const Header = () => {
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
                     className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
+                    src={demoProduct}
+                    alt=""
+                  />
+                  <div className="text">Demo Product</div>
+                </div>
+                <div className="series-slide-card flex items-center flex-col justify-center">
+                  <img className="max-w-[120px] object-cover" src="" alt="" />
+                  <div className="text">Demo Product</div>
+                </div>
+                <div className="series-slide-card flex items-center flex-col justify-center">
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src={demoProduct}
                     alt=""
                   />
                   <div className="text">Demo Product</div>
@@ -69,7 +80,7 @@ const Header = () => {
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
                     className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
+                    src={demoProduct}
                     alt=""
                   />
                   <div className="text">Demo Product</div>
@@ -77,7 +88,7 @@ const Header = () => {
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
                     className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
+                    src={demoProduct}
                     alt=""
                   />
                   <div className="text">Demo Product</div>
@@ -85,23 +96,7 @@ const Header = () => {
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
                     className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src="../../../src/assets/product.webp"
+                    src={demoProduct}
                     alt=""
                   />
                   <div className="text">Demo Product</div>
@@ -160,7 +155,7 @@ const Header = () => {
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img src="../../../src/assets/kaderfoysal.jpg" />
+              <img src={profile} />
             </div>
           </label>
           <ul
