@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const Footer = () => {
   return (
     <footer className="mt-12 flex flex-col gap-2 items-center justify-center bg-white p-20 border-t-2 border-[#6e6e73]">

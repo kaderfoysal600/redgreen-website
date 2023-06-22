@@ -1,5 +1,4 @@
 import AddSection from "../component/AddSection/AddSection";
-import Banner from "../component/Banner/Banner";
 import Blog from "../component/Blog/Blog";
 import Footer from "../component/Footer/Footer";
 import Hero from "../component/Hero/Hero";
