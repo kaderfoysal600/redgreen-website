@@ -1,3 +1,4 @@
+import addImage from "../../../src/assets/add/Largeproductcard_PC.jpg.thumb.webp";
 export default function AddSection() {
   return (
     <div className="bg-black pt-4 px-4 pb-16">
@@ -20,7 +21,7 @@ export default function AddSection() {
           <div className="max-w-[850px] m-auto overflow-hidden">
             <img
               className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-              src="../../../src/assets/add/Largeproductcard_PC.jpg.thumb.webp"
+              src={addImage}
               alt=""
             />
           </div>
