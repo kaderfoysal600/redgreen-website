@@ -44,8 +44,12 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex items-center gap-2">
-          <img src="/src/assets/redgreen.jpeg" className="w-6 h-5" alt="" />
-          <a className="text-xl">Redgreen</a>
+          <img
+            src="/src/assets/brand/REDGREEN2.png"
+            className="w-32 h-auto"
+            alt=""
+          />
+          {/* <a className="text-xl">Redgreen</a> */}
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

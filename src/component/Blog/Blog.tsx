@@ -20,7 +20,9 @@ const Blog = () => {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fug
           </p>
-          <a href="">Learn more</a>
+          <a href="" className="text-base underline underline-offset-4">
+            Learn more
+          </a>
         </div>
         <div className="blog-elm flex flex-col gap-2">
           <div className="max-w-[500px] m-auto  overflow-hidden">
@@ -38,7 +40,9 @@ const Blog = () => {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fug
           </p>
-          <a href="">Learn more</a>
+          <a href="" className="text-base underline underline-offset-4">
+            Learn more
+          </a>
         </div>
         <div className="blog-elm flex flex-col gap-2">
           <div className="max-w-[500px] m-auto  overflow-hidden">
@@ -56,7 +60,9 @@ const Blog = () => {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fug
           </p>
-          <a href="">Learn more</a>
+          <a href="" className="text-base underline underline-offset-4">
+            Learn more
+          </a>
         </div>
       </div>
     </div>
