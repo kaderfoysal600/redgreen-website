@@ -1,10 +1,15 @@
 import "./Hero.css";
-
+import bannerHerro1 from "../../../src/assets/banner-image/hero1.jpg";
+import bannerHerro2 from "../../../src/assets/banner-image/hero2.jpg";
+import bannerHerro3 from "../../../src/assets/banner-image/hero1.jpg";
 const Hero = () => {
   return (
     <div>
       <div>
-        <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
+        <div
+          style={{ backgroundImage: `url(${bannerHerro1})` }}
+          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+        >
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
               {" "}
@@ -27,7 +32,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url(../../../src/assets/banner-image/hero2.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
+        <div
+          style={{ backgroundImage: `url(${bannerHerro2})` }}
+          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+        >
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
               {" "}
@@ -50,7 +58,10 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[url(../../../src/assets/banner-image/hero1.jpg)] bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]">
+        <div
+          style={{ backgroundImage: `url(${bannerHerro3})` }}
+          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+        >
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
               {" "}
