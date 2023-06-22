@@ -1,11 +1,8 @@
+import redgreen from "../../assets/brand/REDGREEN2.png";
 const Footer = () => {
   return (
     <footer className="mt-12 flex flex-col gap-2 items-center justify-center bg-white p-20 border-t-2 border-[#6e6e73]">
-      <img
-        className="w-[180px]"
-        src="../../../src/assets/brand/REDGREEN2.png"
-        alt=""
-      />
+      <img className="w-[180px]" src={redgreen} alt="" />
       <div className="my-4 icon-container flex items-center gap-4">
         <a href="">
           <svg
