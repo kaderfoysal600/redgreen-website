@@ -1,4 +1,6 @@
-
+import blogImg1 from "../../../src/assets/article/card2pc.jpg.thumb.webp";
+import blogImg2 from "../../../src/assets/article/card3pc.jpg.thumb.webp";
+import blogImg3 from "../../../src/assets/article/pc.jpg.thumb.webp";
 const Blog = () => {
   return (
     <div className="mt-4">
@@ -7,7 +9,7 @@ const Blog = () => {
           <div className="max-w-[500px] m-auto  overflow-hidden">
             <img
               className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-              src="../../../src/assets/article/card2pc.jpg.thumb.webp"
+              src={blogImg1}
               alt=""
             />
           </div>
@@ -27,7 +29,7 @@ const Blog = () => {
           <div className="max-w-[500px] m-auto  overflow-hidden">
             <img
               className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-              src="../../../src/assets/article/card3pc.jpg.thumb.webp"
+              src={blogImg2}
               alt=""
             />
           </div>
@@ -47,7 +49,7 @@ const Blog = () => {
           <div className="max-w-[500px] m-auto  overflow-hidden">
             <img
               className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-              src="../../../src/assets/article/pc.jpg.thumb.webp"
+              src={blogImg3}
               alt=""
             />
           </div>
