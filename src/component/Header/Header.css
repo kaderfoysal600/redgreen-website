@@ -10,6 +10,10 @@
 /* .series-slide {
   transition: 0.3s linear all;
 } */
+
+.series-slide {
+  border-top: 1px solid #eaeaea !important;
+}
 .menu > li {
   position: static !important;
 }
@@ -17,6 +21,7 @@
 .navbar {
   justify-content: space-between !important;
   padding-bottom: 0px !important;
+  border-bottom: 1px solid gray !important;
 }
 .navbar-start {
   width: auto !important;

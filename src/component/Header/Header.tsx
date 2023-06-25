@@ -4,7 +4,7 @@ import demoProduct from "../../../src/assets/product.webp";
 import profile from "../../../src/assets/kaderfoysal.jpg";
 const Header = () => {
   return (
-    <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea]">
+    <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea] z-[100000] relative">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@ const Header = () => {
         <ul className="px-1 flex items-center gap-8 ">
           <li className="group/item min-h-[38px] mt-5 hover:border-b-[2px] border-rose-600  cursor-pointer">
             <a className=" ">Laptop</a>
-            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-12 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
               <div className="series-slide-card-container flex align-center justify-center gap-10">
                 <div className="series-slide-card flex items-center flex-col justify-center">
                   <img
@@ -66,7 +66,11 @@ const Header = () => {
                   <div className="text">Demo Product</div>
                 </div>
                 <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img className="max-w-[120px] object-cover" src="" alt="" />
+                  <img
+                    className="max-w-[120px] object-cover"
+                    src={demoProduct}
+                    alt=""
+                  />
                   <div className="text">Demo Product</div>
                 </div>
                 <div className="series-slide-card flex items-center flex-col justify-center">
