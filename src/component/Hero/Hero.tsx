@@ -94,16 +94,16 @@ const Hero = () => {
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
               <p className="text-2xl mb-2">With Free Gift</p>
-              <h2 className="text-5xl">
+              <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-4">
+            <div className="section-2-right-bottom flex flex-col gap-3">
               <p className="text-base flex items-center gap-4">
                 <span className="text-red-600">Up to 31% OFF</span>{" "}
                 <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-lg">
+              <p className="text-base">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
@@ -140,12 +140,12 @@ const Hero = () => {
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-4">
+            <div className="section-2-right-bottom flex flex-col gap-3">
               <p className="text-base flex items-center gap-4">
                 <span className="text-red-600">Up to 31% OFF</span>{" "}
                 <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-lg">
+              <p className="text-base">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
@@ -182,12 +182,12 @@ const Hero = () => {
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-4">
+            <div className="section-2-right-bottom flex flex-col gap-3">
               <p className="text-base flex items-center gap-4">
                 <span className="text-red-600">Up to 31% OFF</span>{" "}
                 <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-lg">
+              <p className="text-base">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
@@ -224,12 +224,12 @@ const Hero = () => {
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-4">
+            <div className="section-2-right-bottom flex flex-col gap-3">
               <p className="text-base flex items-center gap-4">
                 <span className="text-red-600">Up to 31% OFF</span>{" "}
                 <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-lg">
+              <p className="text-base">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
