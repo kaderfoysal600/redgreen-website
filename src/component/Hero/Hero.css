@@ -1,6 +1,6 @@
 .button {
   display: inline-flex;
-  height: 30px;
+  height: 35px;
   width: 100px;
   border: 1px solid #000;
   color: #000;
@@ -32,7 +32,7 @@ a {
   font-size: 0.85rem;
   line-height: 1rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #slide {

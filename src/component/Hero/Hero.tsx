@@ -93,20 +93,21 @@ const Hero = () => {
         <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p>With Free Gift</p>
-              <h2 className="text-4xl">
+              <p className="text-2xl mb-2">With Free Gift</p>
+              <h2 className="text-5xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
             <div className="section-2-right-bottom flex flex-col gap-4">
-              <p className="text-sm">
-                <span> With GiftSave</span> <span>with RedCoins</span>
+              <p className="text-base flex items-center gap-4">
+                <span className="text-red-600">Up to 31% OFF</span>{" "}
+                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-base">
+              <p className="text-lg">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
-              <p className="text-xl font-semibold">
+              <p className="text-xl font-medium">
                 From <span>$649.00</span>
               </p>
               <div className="btn1 flex items-center gap-4">
@@ -134,20 +135,21 @@ const Hero = () => {
         <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p>With Free Gift</p>
+              <p className="text-2xl mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
             <div className="section-2-right-bottom flex flex-col gap-4">
-              <p className="text-sm">
-                <span> With GiftSave</span> <span>with RedCoins</span>
+              <p className="text-base flex items-center gap-4">
+                <span className="text-red-600">Up to 31% OFF</span>{" "}
+                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-base">
+              <p className="text-lg">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
-              <p className="text-xl font-semibold">
+              <p className="text-xl font-medium">
                 From <span>$649.00</span>
               </p>
               <div className="btn1 flex items-center gap-4">
@@ -175,20 +177,21 @@ const Hero = () => {
         <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p>With Free Gift</p>
+              <p className="text-2xl mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
             <div className="section-2-right-bottom flex flex-col gap-4">
-              <p className="text-sm">
-                <span> With GiftSave</span> <span>with RedCoins</span>
+              <p className="text-base flex items-center gap-4">
+                <span className="text-red-600">Up to 31% OFF</span>{" "}
+                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-base">
+              <p className="text-lg">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
-              <p className="text-xl font-semibold">
+              <p className="text-xl font-medium">
                 From <span>$649.00</span>
               </p>
               <div className="btn1 flex items-center gap-4">
@@ -216,20 +219,21 @@ const Hero = () => {
         <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p>With Free Gift</p>
+              <p className="text-2xl mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
             <div className="section-2-right-bottom flex flex-col gap-4">
-              <p className="text-sm">
-                <span> With GiftSave</span> <span>with RedCoins</span>
+              <p className="text-base flex items-center gap-4">
+                <span className="text-red-600">Up to 31% OFF</span>{" "}
+                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
               </p>
-              <p className="text-base">
+              <p className="text-lg">
                 Buy OnePlus 10T 5G and claim a free gift. Limited amount
                 available.
               </p>
-              <p className="text-xl font-semibold">
+              <p className="text-xl font-medium">
                 From <span>$649.00</span>
               </p>
               <div className="btn1 flex items-center gap-4">
