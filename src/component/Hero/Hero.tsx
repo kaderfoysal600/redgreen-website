@@ -12,7 +12,7 @@ const Hero = () => {
       <div>
         <div
           style={{ backgroundImage: `url(${bannerHerro1})` }}
-          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+          className="bg-no-repeat bg-cover bg-center h-[calc(100vh-64px)] w-full relative border-b-4 border-[#222]"
         >
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
@@ -38,9 +38,9 @@ const Hero = () => {
         </div>
         <div
           style={{ backgroundImage: `url(${bannerHerro2})` }}
-          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+          className="bg-no-repeat bg-cover bg-center h-[100vh] w-full relative border-b-4 border-[#222]"
         >
-          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
+          <div className="pt-16 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
               {" "}
               NEW RAZER BLADE 16 & 18 MERCURY{" "}
@@ -64,9 +64,9 @@ const Hero = () => {
         </div>
         <div
           style={{ backgroundImage: `url(${bannerHerro3})` }}
-          className="bg-no-repeat bg-cover bg-center h-[500px] w-full relative border-b-4 border-[#222]"
+          className="bg-no-repeat bg-cover bg-center h-[100vh] w-full relative border-b-4 border-[#222]"
         >
-          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
+          <div className="pt-16 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
             <h1 className="text-white font-semibold text-4xl">
               {" "}
               NEW RAZER BLADE 14{" "}
