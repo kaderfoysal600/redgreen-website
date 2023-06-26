@@ -3,7 +3,7 @@ import blogImg2 from "../../../src/assets/article/card3pc.jpg.thumb.webp";
 import blogImg3 from "../../../src/assets/article/pc.jpg.thumb.webp";
 const Blog = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-12">
       <div className="container m-auto overflow-hidden px-4 blog-container grid grid-cols-3 gap-8">
         <div className="blog-elm flex flex-col gap-2">
           <div className="max-w-[500px] m-auto  overflow-hidden">

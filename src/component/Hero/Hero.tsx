@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           style={{ backgroundImage: `url(${bannerHerro2})` }}
           className="bg-no-repeat bg-cover bg-center h-[100vh] w-full relative border-b-4 border-[#222]"
         >
@@ -87,7 +87,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="container m-auto grid grid-cols-2 gap-4 pt-10 px-4 pb-8">
         <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">

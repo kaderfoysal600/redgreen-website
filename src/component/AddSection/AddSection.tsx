@@ -1,7 +1,7 @@
 import addImage from "../../../src/assets/add/Largeproductcard_PC.jpg.thumb.webp";
 export default function AddSection() {
   return (
-    <div className="bg-black pt-4 px-4 pb-16">
+    <div className="bg-black pt-4 px-4 pb-16 mt-4">
       <div className="container mx-auto text-white">
         <p className="border-b-2 py-4 text-xl border-slate-200">
           OnePlus X Genshin Impact
