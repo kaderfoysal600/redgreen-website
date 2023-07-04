@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 import Header from "./component/Header/Header";
 import Home from "./pages/Home";
+import Phone from "./pages/Phone";
 
 const router = createBrowserRouter([
   {
@@ -22,10 +23,10 @@ const router = createBrowserRouter([
   //   path: "*",
   //   element: <Errorpage />,
   // },
-  // {
-  //   path: "/calculator",
-  //   element: <Calculator />,
-  // },
+  {
+    path: "/phone",
+    element: <Phone />,
+  },
 ]);
 function App() {
   return (

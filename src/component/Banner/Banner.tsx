@@ -1,14 +1,17 @@
 import Slider from "react-slick";
 import "./Banner.css";
+import phoneBanner1 from "../../assets/banner-image/phone_banner1.jpg";
+import phoneBanner2 from "../../assets/banner-image/phone_banner_2.jpg";
+import phoneBanner3 from "../../assets/banner-image/phone_banner3.jpg";
 const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToScroll: 1,
-    centerMode: true,
-    centerPadding: "60px",
-    slidesToShow: 2,
+    centerMode: false,
+    centerPadding: "0px",
+    slidesToShow: 1,
     autoplay: true,
     responsive: [
       {
@@ -35,19 +38,19 @@ const Banner = () => {
     <div className="wrapper">
       <Slider {...settings}>
         <div>
-          <img src="../../../src/assets/banner-image/banner1.jpg" alt="" />
+          <img src={phoneBanner1} alt="" />
         </div>
         <div>
-          <img src="../../../src/assets/banner-image/banner-2.jpg" alt="" />
+          <img src={phoneBanner2} alt="" />
         </div>
         <div>
-          <img src="../../../src/assets/banner-image/banner-3.jpg" alt="" />
+          <img src={phoneBanner3} alt="" />
         </div>
         <div>
-          <img src="../../../src/assets/banner-image/banner4.jpg" alt="" />
+          <img src={phoneBanner1} alt="" />
         </div>
         <div>
-          <img src="../../../src/assets/banner-image/banner-5.jpg" alt="" />
+          <img src={phoneBanner1} alt="" />
         </div>
       </Slider>
     </div>
