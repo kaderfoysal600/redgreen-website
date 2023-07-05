@@ -1,0 +1,106 @@
+/*** swipper ***/
+.carousel .swiper-pagination-bullet-active {
+  background-color: #FFF !important;
+  width: 25px !important;
+  height: 9px !important;
+  border-radius: 5px;
+  opacity: 1;
+  transition: all 0.3s linear;
+}
+.carousel .swiper-pagination-bullet {
+  background-color: #FFF;
+  width: 10px;
+  opacity: 1;
+  height: 10px;
+  transition: all 0.3s linear;
+}
+.swiper-button-next {
+  font-size: 20px;
+}
+.swiper-button-next {
+  right: 20px;
+}
+.swiper-button-prev {
+  left: 20px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  // background-color: #fff;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px!important;
+  height: 25px!important;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 660;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #FFF;
+}
+.mySwiper:hover .swiper-button-next,
+.mySwiper:hover .swiper-button-prev {
+  visibility: visible;
+  opacity: 1;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "\f061";
+  font-size: 14px!important;
+  font-weight: 600;
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  color: #000;
+  transition: all 0.3s linear;
+}
+.swiper-button-next:hover:after,
+.swiper-button-prev:hover:after {
+  color: #000;
+}
+.swiper-button-prev:after {
+  content: "\f060";
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  z-index: 20;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  transition: all 0.3s linear;
+}
+.small-carousel .mySwiper {
+  padding: 0px 30px;
+}
+.small-carousel .swiper-button-next {
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  top: 60%;
+}
+.small-carousel .swiper-button-prev {
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  top: 60%;
+}
+
+// .carousel .swiper{
+//   padding-bottom: 30px;
+// }
+.carousel .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 30px;
+}
+.carousel .swiper-slide {
+  padding: 10px 1px;
+  box-sizing: border-box;
+}

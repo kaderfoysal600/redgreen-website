@@ -2,6 +2,8 @@ import "./Header.css";
 import logo from "/src/assets/brand/REDGREEN2.png";
 import demoProduct from "../../../src/assets/product.webp";
 import profile from "../../../src/assets/kaderfoysal.jpg";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea] z-[100000] relative">
@@ -46,10 +48,12 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center gap-2">
+        <Link to='/'>
+        <div className="flex items-center gap-2" >
           <img src={logo} className="w-32 h-auto" alt="" />
-          {/* <a className="text-xl">Redgreen</a> */}
         </div>
+        </Link>
+  
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="px-1 flex items-center gap-8 ">
@@ -109,7 +113,10 @@ const Header = () => {
             </div>
           </li>
           <li className="group/item min-h-[32px] mt-2 cursor-pointer">
+            <Link to='/phone'>
             <a>Phones</a>
+            </Link>
+  
           </li>
           <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Audio</a>

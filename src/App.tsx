@@ -1,40 +1,69 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./component/Header/Header";
 import Home from "./pages/Home";
 import Phone from "./pages/Phone";
+import ProductDetails from "./pages/ProductDetails";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    children: [
-      // {
-      //   path: "/",
-      //   element: <Home />,
-      // },
-      // {
-      //   path: "/calculator",
-      //   element: <Calculator />,
-      // },
-    ],
-  },
-  // {
-  //   path: "*",
-  //   element: <Errorpage />,
-  // },
-  {
-    path: "/phone",
-    element: <Phone />,
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Home />,
+//     children: [
+//       // {
+//       //   path: "/",
+//       //   element: <Home />,
+//       // },
+//       // {
+//       //   path: "/calculator",
+//       //   element: <Calculator />,
+//       // },
+//     ],
+//   },
+//   // {
+//   //   path: "*",
+//   //   element: <Errorpage />,
+//   // },
+//   {
+//     path: "/phone",
+//     element: <Phone />,
+//   },
+//   {
+//     path: "/product-details",
+//     element: <ProductDetails />,
+//   },
+// ]);
+
 function App() {
   return (
     <>
       {
+
+
         <div className="app">
+
           <Header />
-          <RouterProvider router={router} />
+          <Routes>
+              <Route path="/" element={
+                <Home />
+              }> 
+              </Route>
+
+
+              <Route path="/product-details" element={
+                <ProductDetails />
+              }>
+                  </Route>
+
+                  
+                <Route path="/phone" element={
+                  <Phone />
+                }>
+                  
+                </Route>
+
+
+          </Routes>
         </div>
       }
     </>
