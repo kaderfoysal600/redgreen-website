@@ -1,7 +1,6 @@
 import "./Hero.css";
 import bannerHerro1 from "../../../src/assets/banner-image/hero1.jpg";
-import bannerHerro2 from "../../../src/assets/banner-image/hero2.jpg";
-import bannerHerro3 from "../../../src/assets/banner-image/hero1.jpg";
+
 import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product3 from "../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp";

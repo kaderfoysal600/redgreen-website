@@ -1,6 +1,5 @@
 import phone1 from "../../assets/mobile/pms_1641485803.86155485!348x348.png";
-import phone2 from "../../assets/mobile/pms_1650980933.40744791!348x348.jpg";
-import phone3 from "../../assets/mobile/pms_1677241587.64975684!348x348.jpg";
+
 const DeviceProduct = () => {
     return (
         <div className="mt-6 grid grid-cols-4 gap-8 container m-auto">
