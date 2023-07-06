@@ -42,7 +42,25 @@ const ProductDetails = () => {
                         <span className='py-4 px-6 rounded-lg'>{amount}</span>
                         <button className='bg-gray-200 py-2 px-4 rounded-lg text-violet-800 text-3xl' onClick={() => setAmount((prev) => prev + 1)}>+</button>
                     </div> */}
-                    <button className='bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Buy Now</button>
+                    {/* <button className='bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Buy Now</button> */}
+                    {/* Open the modal using ID.showModal() method */}
+<button className="btn bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full" onClick={()=>window.my_modal_1.showModal()}>Buy Now</button>
+<dialog id="my_modal_1" className="modal">
+  <form method="dialog" className="modal-box">
+   
+{/* xs */}
+<p className='p-2'>product name</p>
+<input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs " />
+{/* md */}
+{/* <input type="text" placeholder="Type here" className="input input-bordered input-md w-full max-w-xs pt-2" /> */}
+
+
+    <div className="modal-action">
+      {/* if there is a button in form, it will close the modal */}
+      <button className="btn">Close</button>
+    </div>
+  </form>
+</dialog>
                 </div>
             </div>
         </div>
