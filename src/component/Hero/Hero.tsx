@@ -1,5 +1,6 @@
 import "./Hero.css";
-import bannerHerro1 from "../../../src/assets/banner-image/hero1.jpg";
+
+import bannerHerro2 from "../../../src/assets/article/FreeBook-a1_01.jpg";
 
 import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
@@ -11,11 +12,11 @@ const Hero = () => {
     <div>
       <div>
         <div
-          style={{ backgroundImage: `url(${bannerHerro1})` }}
-          className="bg-no-repeat bg-cover bg-center h-[calc(100vh-64px)] w-full relative border-b-4 border-[#222]"
+          style={{ backgroundImage: `url(${bannerHerro2})` }}
+          className="bg-no-repeat bg-cover bg-center h-[300px] lg:h-[calc(100vh-64px)]  w-full relative border-b-4 border-[#222]"
         >
-          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-2">
-            <h1 className="text-white font-semibold text-4xl">
+          <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-0 lg:gap-2">
+            <h1 className="text-white font-semibold text-2xl lg:text-4xl">
               {" "}
               NEW RAZER BLADE 14{" "}
             </h1>
@@ -89,8 +90,8 @@ const Hero = () => {
           </div>
         </div> */}
       </div>
-      <div className="container m-auto grid grid-cols-2 gap-4 pt-10 px-4 pb-8">
-        <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
+      <div className="container m-auto grid grid-cols-1 lg:grid-cols-2 gap-4 pt-10 px-4 pb-8">
+        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
               <p className="text-2xl mb-2">With Free Gift</p>
@@ -113,8 +114,10 @@ const Hero = () => {
               <div className="btn1 flex items-center gap-4">
                 <div className="button" id="button-2">
                   <div id="slide"></div>
-                  <Link to='/product-details'>    <a href="">Buy now</a></Link>
-               
+                  <Link to="/product-details">
+                    {" "}
+                    <a href="">Buy now</a>
+                  </Link>
                 </div>
                 <a href="" className="underline underline-offset-4">
                   Learn More
@@ -133,7 +136,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
+        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
               <p className="text-2xl mb-2">With Free Gift</p>
@@ -175,7 +178,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
+        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
               <p className="text-2xl mb-2">With Free Gift</p>
@@ -217,7 +220,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="section-2-card flex gap-2 bg-[#f8f8f8] p-4 rounded-md">
+        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
           <div className="section-2-left flex flex-col justify-between ">
             <div className="section-2-left-top">
               <p className="text-2xl mb-2">With Free Gift</p>
