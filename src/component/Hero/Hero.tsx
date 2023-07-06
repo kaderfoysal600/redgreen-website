@@ -1,5 +1,6 @@
 import "./Hero.css";
-import bannerHerro1 from "../../../src/assets/banner-image/hero1.jpg";
+
+import bannerHerro2 from "../../../src/assets/article/FreeBook-a1_01.jpg";
 
 import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
@@ -11,7 +12,7 @@ const Hero = () => {
     <div>
       <div>
         <div
-          style={{ backgroundImage: `url(${bannerHerro1})` }}
+          style={{ backgroundImage: `url(${bannerHerro2})` }}
           className="bg-no-repeat bg-cover bg-center h-[300px] lg:h-[calc(100vh-64px)]  w-full relative border-b-4 border-[#222]"
         >
           <div className="pt-8 absolute top-0 text-center px-4 py-3 w-full flex items-center justify-center flex-col gap-0 lg:gap-2">
@@ -113,8 +114,10 @@ const Hero = () => {
               <div className="btn1 flex items-center gap-4">
                 <div className="button" id="button-2">
                   <div id="slide"></div>
-                  <Link to='/product-details'>    <a href="">Buy now</a></Link>
-               
+                  <Link to="/product-details">
+                    {" "}
+                    <a href="">Buy now</a>
+                  </Link>
                 </div>
                 <a href="" className="underline underline-offset-4">
                   Learn More
