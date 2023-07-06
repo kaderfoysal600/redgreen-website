@@ -3,7 +3,7 @@ import { useState } from 'react'
 const ProductDetails = () => {
 
 
-    const [images, setImages] = useState({
+    const [images,] = useState({
         img1 : "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1641441332.80624656.png",
         img2 : "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1641441341.06699115.png",
         img3 : "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1641485855.26112991.png",
@@ -12,7 +12,7 @@ const ProductDetails = () => {
 
     const [activeImg, setActiveImage] = useState(images.img1)
 
-    const [amount, setAmount] = useState(1);
+    // const [amount, setAmount] = useState(1);
 
 
     return (
