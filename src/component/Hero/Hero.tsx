@@ -6,6 +6,7 @@ import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
 import product3 from "../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp";
 import product4 from "../../../src/assets/mobile/ej-pc.png.thumb.webp";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
@@ -113,7 +114,8 @@ const Hero = () => {
               <div className="btn1 flex items-center gap-4">
                 <div className="button" id="button-2">
                   <div id="slide"></div>
-                  <a href="">Buy now</a>
+                  <Link to='/product-details'>    <a href="">Buy now</a></Link>
+               
                 </div>
                 <a href="" className="underline underline-offset-4">
                   Learn More
