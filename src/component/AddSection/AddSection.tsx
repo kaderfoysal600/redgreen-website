@@ -6,7 +6,7 @@ export default function AddSection() {
         <p className="border-b-2 py-4 text-xl border-slate-200">
           OnePlus X Genshin Impact
         </p>
-        <div className="add-hero pt-8 grid grid-cols-[28%_72%] justify-between">
+        <div className="add-hero pt-8 grid lg:grid-cols-[28%_72%] grid-cols-1 gap-4 justify-between">
           <div className="add-left flex flex-col justify-between">
             <h1 className="text-6xl">Limited Edition Box Coming Soon</h1>
             <div className="text-bottom flex flex-col gap-4">
