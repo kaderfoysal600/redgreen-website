@@ -1,4 +1,4 @@
-import {Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./component/Header/Header";
 import Home from "./pages/Home";
@@ -39,31 +39,17 @@ function App() {
   return (
     <>
       {
-
-
         <div className="app">
-
           <Header />
           <Routes>
-              <Route path="/" element={
-                <Home />
-              }> 
-              </Route>
+            <Route path="/" element={<Home />}></Route>
 
+            <Route
+              path="/product-details/:productSlug"
+              element={<ProductDetails />}
+            ></Route>
 
-              <Route path="/product-details" element={
-                <ProductDetails />
-              }>
-                  </Route>
-
-                  
-                <Route path="/phone" element={
-                  <Phone />
-                }>
-                  
-                </Route>
-
-
+            <Route path="/phone" element={<Phone />}></Route>
           </Routes>
           <Footer />
         </div>
