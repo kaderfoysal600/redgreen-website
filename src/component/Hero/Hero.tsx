@@ -11,7 +11,10 @@ const Hero = (productData: any) => {
   // console.log(data);
   useEffect(() => {
     productData.data.products.map((item: any) => {
+      console.log(item.category);
       if (item.category === "Phone") {
+        const allData = [];
+        allData.push(item);
         setData(item);
         console.log(data);
       }
