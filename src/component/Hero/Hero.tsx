@@ -3,9 +3,9 @@ import "./Hero.css";
 import bannerHerro2 from "../../../src/assets/article/FreeBook-a1_01.jpg";
 
 import product1 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
-import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
-import product3 from "../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp";
-import product4 from "../../../src/assets/mobile/ej-pc.png.thumb.webp";
+// import product2 from "../../../src/assets/mobile/10T-pc.png.thumb.webp";
+// import product3 from "../../../src/assets/mobile/nord-buds-2-pc.png.thumb.webp";
+// import product4 from "../../../src/assets/mobile/ej-pc.png.thumb.webp";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
