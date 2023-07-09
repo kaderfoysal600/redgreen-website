@@ -74,7 +74,7 @@ const ProductDetails = () => {
           {/* Open the modal using ID.showModal() method */}
           <button
             className="btn bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full"
-            onClick={() => window.my_modal_1.showModal()}
+            onClick={() => (window as any).my_modal_1.showModal()}
           >
             Buy Now
           </button>
