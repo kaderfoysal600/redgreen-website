@@ -72,7 +72,13 @@ const ProductDetails = () => {
                     </div> */}
           {/* <button className='bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full'>Buy Now</button> */}
           {/* Open the modal using ID.showModal() method */}
-          <dialog id="purchase_modal" className="modal">
+          <button
+            className="btn bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full"
+            onClick={() => (window as any).my_modal_1.showModal()}
+          >
+            Buy Now
+          </button>
+          <dialog id="my_modal_1" className="modal">
             <form method="dialog" className="modal-box">
               {/* xs */}
 
@@ -111,12 +117,6 @@ const ProductDetails = () => {
               </div>
             </form>
           </dialog>
-          <button
-            className="btn bg-violet-800 text-white font-semibold py-3 px-16 rounded-xl h-full"
-            onClick={() => purchase_modal.showModal()}
-          >
-            Buy Now
-          </button>
         </div>
       </div>
     </div>
