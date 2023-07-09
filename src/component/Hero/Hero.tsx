@@ -91,171 +91,161 @@ const Hero = () => {
         </div> */}
       </div>
       <div className="container m-auto grid grid-cols-1 lg:grid-cols-2 gap-4 pt-10 px-4 pb-8">
-        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
-          <div className="section-2-left flex flex-col justify-between ">
+        <div className="section-2-card lg:gap-y-4 bg-[#dfd5d5] p-4 rounded-md">
+          <div className="section-2-1 flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p className="text-2xl mb-2">With Free Gift</p>
+              <p className="text-2xl lg:mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-3">
-              <p className="text-base flex items-center gap-4">
-                <span className="text-red-600">Up to 31% OFF</span>{" "}
-                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
-              </p>
-              <p className="text-base">
-                Buy OnePlus 10T 5G and claim a free gift. Limited amount
-                available.
-              </p>
-              <p className="text-xl font-medium">
-                From <span>$649.00</span>
-              </p>
-              <div className="btn1 flex items-center gap-4">
-                <div className="button" id="button-2">
-                  <div id="slide"></div>
-                  <Link to="/product-details">
-                    {" "}
-                    <a href="">Buy now</a>
-                  </Link>
-                </div>
-                <a href="" className="underline underline-offset-4">
-                  Learn More
-                </a>
-              </div>
+          </div>
+          <div className="section-2-2 flex flex-col gap-3 justify-end">
+            <p className="text-base flex items-center gap-4">
+              <span className="text-red-600">Up to 31% OFF</span>{" "}
+              <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
+            </p>
+            <p className="text-base">
+              Buy OnePlus 10T 5G and claim a free gift. Limited amount
+              available.
+            </p>
+            <p className="text-xl font-medium">
+              From <span>$649.00</span>
+            </p>
+            <div className="btn1 flex items-center gap-2">
+              <Link to="/product-details">
+                <button className="btn btn-neutral">Buy Now</button>
+              </Link>
+              <Link to="/product-details">
+                <button className="btn btn-outline">Learn More</button>
+              </Link>
             </div>
           </div>
-          <div className="section-2-right">
+          <div className="section-2-3">
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
-                className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
+                className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
                 src={product1}
                 alt=""
               />
             </div>
           </div>
         </div>
-
-        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
-          <div className="section-2-left flex flex-col justify-between ">
+        <div className="section-2-card lg:gap-y-4 bg-[#dfd5d5] p-4 rounded-md">
+          <div className="section-2-1 flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p className="text-2xl mb-2">With Free Gift</p>
+              <p className="text-2xl lg:mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-3">
-              <p className="text-base flex items-center gap-4">
-                <span className="text-red-600">Up to 31% OFF</span>{" "}
-                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
-              </p>
-              <p className="text-base">
-                Buy OnePlus 10T 5G and claim a free gift. Limited amount
-                available.
-              </p>
-              <p className="text-xl font-medium">
-                From <span>$649.00</span>
-              </p>
-              <div className="btn1 flex items-center gap-4">
-                <div className="button" id="button-2">
-                  <div id="slide"></div>
-                  <a href="">Buy now</a>
-                </div>
-                <a href="" className="underline underline-offset-4">
-                  Learn More
-                </a>
-              </div>
+          </div>
+          <div className="section-2-2 flex flex-col gap-3 justify-end">
+            <p className="text-base flex items-center gap-4">
+              <span className="text-red-600">Up to 31% OFF</span>{" "}
+              <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
+            </p>
+            <p className="text-base">
+              Buy OnePlus 10T 5G and claim a free gift. Limited amount
+              available.
+            </p>
+            <p className="text-xl font-medium">
+              From <span>$649.00</span>
+            </p>
+            <div className="btn1 flex items-center gap-2">
+              <Link to="/product-details">
+                <button className="btn btn-neutral">Buy Now</button>
+              </Link>
+              <Link to="/product-details">
+                <button className="btn btn-outline">Learn More</button>
+              </Link>
             </div>
           </div>
-          <div className="section-2-right">
+          <div className="section-2-3">
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
-                className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src={product2}
+                className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
+                src={product1}
                 alt=""
               />
             </div>
           </div>
         </div>
-
-        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
-          <div className="section-2-left flex flex-col justify-between ">
+        <div className="section-2-card lg:gap-y-4 bg-[#dfd5d5] p-4 rounded-md">
+          <div className="section-2-1 flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p className="text-2xl mb-2">With Free Gift</p>
+              <p className="text-2xl lg:mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-3">
-              <p className="text-base flex items-center gap-4">
-                <span className="text-red-600">Up to 31% OFF</span>{" "}
-                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
-              </p>
-              <p className="text-base">
-                Buy OnePlus 10T 5G and claim a free gift. Limited amount
-                available.
-              </p>
-              <p className="text-xl font-medium">
-                From <span>$649.00</span>
-              </p>
-              <div className="btn1 flex items-center gap-4">
-                <div className="button" id="button-2">
-                  <div id="slide"></div>
-                  <a href="">Buy now</a>
-                </div>
-                <a href="" className="underline underline-offset-4">
-                  Learn More
-                </a>
-              </div>
+          </div>
+          <div className="section-2-2 flex flex-col gap-3 justify-end">
+            <p className="text-base flex items-center gap-4">
+              <span className="text-red-600">Up to 31% OFF</span>{" "}
+              <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
+            </p>
+            <p className="text-base">
+              Buy OnePlus 10T 5G and claim a free gift. Limited amount
+              available.
+            </p>
+            <p className="text-xl font-medium">
+              From <span>$649.00</span>
+            </p>
+            <div className="btn1 flex items-center gap-2">
+              <Link to="/product-details">
+                <button className="btn btn-neutral">Buy Now</button>
+              </Link>
+              <Link to="/product-details">
+                <button className="btn btn-outline">Learn More</button>
+              </Link>
             </div>
           </div>
-          <div className="section-2-right">
+          <div className="section-2-3">
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
-                className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src={product3}
+                className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
+                src={product1}
                 alt=""
               />
             </div>
           </div>
         </div>
-
-        <div className="section-2-card flex lg:flex-row flex-col-reverse gap-2 bg-[#f8f8f8] p-4 rounded-md">
-          <div className="section-2-left flex flex-col justify-between ">
+        <div className="section-2-card lg:gap-y-4 bg-[#dfd5d5] p-4 rounded-md">
+          <div className="section-2-1 flex flex-col justify-between ">
             <div className="section-2-left-top">
-              <p className="text-2xl mb-2">With Free Gift</p>
+              <p className="text-2xl lg:mb-2">With Free Gift</p>
               <h2 className="text-4xl">
                 OnePlus 10T <span>5G</span>
               </h2>
             </div>
-            <div className="section-2-right-bottom flex flex-col gap-3">
-              <p className="text-base flex items-center gap-4">
-                <span className="text-red-600">Up to 31% OFF</span>{" "}
-                <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
-              </p>
-              <p className="text-base">
-                Buy OnePlus 10T 5G and claim a free gift. Limited amount
-                available.
-              </p>
-              <p className="text-xl font-medium">
-                From <span>$649.00</span>
-              </p>
-              <div className="btn1 flex items-center gap-4">
-                <div className="button" id="button-2">
-                  <div id="slide"></div>
-                  <a href="">Buy now</a>
-                </div>
-                <a href="" className="underline underline-offset-4">
-                  Learn More
-                </a>
-              </div>
+          </div>
+          <div className="section-2-2 flex flex-col gap-3 justify-end">
+            <p className="text-base flex items-center gap-4">
+              <span className="text-red-600">Up to 31% OFF</span>{" "}
+              <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
+            </p>
+            <p className="text-base">
+              Buy OnePlus 10T 5G and claim a free gift. Limited amount
+              available.
+            </p>
+            <p className="text-xl font-medium">
+              From <span>$649.00</span>
+            </p>
+            <div className="btn1 flex items-center gap-2">
+              <Link to="/product-details">
+                <button className="btn btn-neutral">Buy Now</button>
+              </Link>
+              <Link to="/product-details">
+                <button className="btn btn-outline">Learn More</button>
+              </Link>
             </div>
           </div>
-          <div className="section-2-right">
+          <div className="section-2-3">
             <div className="max-w-[350px] m-auto overflow-hidden">
               <img
-                className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-                src={product4}
+                className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
+                src={product1}
                 alt=""
               />
             </div>
