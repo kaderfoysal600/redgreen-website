@@ -121,7 +121,7 @@ const Hero = (productData: any) => {
                   From <span>$649.00</span>
                 </p>
                 <div className="btn1 flex items-center gap-2">
-                  <Link to="/product-details">
+                  <Link to={`/product-details/${item.slug}`}>
                     <button className="btn btn-neutral">Buy Now</button>
                   </Link>
                   <Link to={`/product-details/${item.slug}`}>
