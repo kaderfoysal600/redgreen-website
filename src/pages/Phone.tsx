@@ -6,22 +6,14 @@ import { products } from "../product.json";
 
 const Phone = () => {
   console.log("products", products);
-
-  const [data, setData] = useState([]);
-  let arr: any = [];
   const filteredProducts = products.filter((item: any) => {
-    arr = [item];
     return item.category === "Phone";
   });
-  useEffect(() => {
-    setData(arr);
-    console.log("filteredProducts", data);
-  }, []);
   return (
     <div>
       {/* <Banner /> */}
       <DeviceBanner />
-      <DeviceProduct />
+      <DeviceProduct phoneProduct={filteredProducts} />
       <DeviceService></DeviceService>
     </div>
   );
