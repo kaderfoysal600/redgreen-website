@@ -8,18 +8,13 @@ import { useEffect, useState } from "react";
 
 const Hero = (productData: any) => {
   const [data, setData] = useState([]);
-  // console.log(data);
+  const fiteredProducts = productData.data.products.filter((item: any) => {
+    return item.category == "Phone" || item.category == "Tv";
+  });
+
   useEffect(() => {
-    productData.data.products.map((item: any) => {
-      console.log(item.category);
-      if (item.category === "Phone") {
-        const allData = [];
-        allData.push(item);
-        setData(item);
-        console.log(data);
-      }
-      console.log("item.products.phone,", item);
-    });
+    setData(fiteredProducts);
+    console.log("fiteredProducts", fiteredProducts);
   }, []);
 
   return (
@@ -105,7 +100,55 @@ const Hero = (productData: any) => {
         </div> */}
       </div>
       <div className="container m-auto grid grid-cols-1 lg:grid-cols-2 gap-4 pt-10 px-4 pb-8">
-        {}
+        {data.map((item: any) => {
+          return (
+            <div className="section-2-card lg:gap-y-4 bg-[#dfd5d5] p-4 rounded-md">
+              <div className="section-2-1 flex flex-col justify-between ">
+                <div className="section-2-left-top">
+                  <p className="text-2xl lg:mb-2">With Free Gift</p>
+                  <h2 className="text-4xl truncate max-w-[400px] overflow-hidden">
+                    {item.name} <span>5G</span>
+                  </h2>
+                </div>
+              </div>
+              <div className="section-2-2 flex flex-col gap-3 justify-end">
+                <p className="text-base flex items-center gap-4">
+                  <span className="text-red-600">Up to 31% OFF</span>{" "}
+                  <span className="text-[rgba(0,0,0,.78)]">with RedCoins</span>
+                </p>
+                <p className="text-base">{item.short_description}</p>
+                <p className="text-xl font-medium">
+                  From <span>$649.00</span>
+                </p>
+                <div className="btn1 flex items-center gap-2">
+                  <Link to="/product-details">
+                    <button className="btn btn-neutral">Buy Now</button>
+                  </Link>
+                  <Link to={`/product-details/${item.slug}`}>
+                    <button className="btn btn-outline">Learn More</button>
+                  </Link>
+                </div>
+              </div>
+              <div className="section-2-3">
+                <div className="max-w-[350px] m-auto overflow-hidden">
+                  {item.image ? (
+                    <img
+                      className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
+                      src={item.image[0]}
+                      alt=""
+                    />
+                  ) : (
+                    <img
+                      className="hover:scale-110 w-full min-w-[200px] transition duration-500 cursor-pointer object-cover"
+                      src={product1}
+                      alt=""
+                    />
+                  )}
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

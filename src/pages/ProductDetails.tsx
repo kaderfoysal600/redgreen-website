@@ -1,16 +1,19 @@
 import { useParams } from "react-router-dom";
 import ProductDetailsComponent from "../component/ProductDetails/ProductDetails";
-import products from "../product.json";
+import { products } from "../product.json";
 const ProductDetails = () => {
   const { productSlug } = useParams();
-  const thisProduct = products.products.find((prod: any) => {
-    prod.slug === productSlug;
+  console.log("products", products);
+  const thisProduct = products.find((prod: any) => {
+    if (prod.slug === productSlug) {
+      return prod;
+    }
   });
   console.log("thisProduct, ", thisProduct);
 
   return (
     <div>
-      <ProductDetailsComponent />
+      <ProductDetailsComponent product={thisProduct} />
     </div>
   );
 };
