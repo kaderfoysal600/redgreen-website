@@ -42,6 +42,7 @@
       "price": 699.99,
       "product_id": 3,
       "category": "Phone",
+      "image": [],
       "short_description": "Stay connected and enjoy powerful performance with our Smartphone.",
       "detailed_information": "Our Smartphone is powered by the latest Android 12 operating system, offering a smooth and intuitive user experience. It features a 6.5-inch AMOLED display for vibrant visuals and a triple rear camera setup (48MP+12MP+5MP) for capturing stunning photos and videos. Stay connected, browse the web, and multitask effortlessly with our Smartphone."
     },
@@ -54,6 +55,7 @@
       "product_id": 4,
       "category": "Phone",
       "short_description": "Experience simplicity and reliability with our Flip Phone.",
+      "image": [],
       "detailed_information": "Our Flip Phone offers a compact and easy-to-use design, perfect for those who prefer simplicity. It features a 2.8-inch screen size for clear viewing and 16GB of internal storage for storing your essential files. With a long-lasting 2000mAh battery, our Flip Phone ensures you stay connected throughout the day."
     },
     {
@@ -88,7 +90,7 @@
       "price": 183,
       "product_id": 7,
       "category": "Accessories",
-      "image": "https://i.ibb.co/Pgd84d3/DC-156.jpg",
+      "image": ["https://i.ibb.co/Pgd84d3/DC-156.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Color: White, Length:100cm, Data+charging, 5A output quick charge, pvc jacket, 15000 times plugging test"
     },
@@ -100,7 +102,7 @@
       "price": 183,
       "product_id": 8,
       "category": "Accessories",
-      "image": "https://i.ibb.co/wBB142b/DC-157.jpg",
+      "image": ["https://i.ibb.co/wBB142b/DC-157.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Color: White, Length:100cm, Data+charging, 5A output quick charge, pvc jacket, 15000 times plugging test"
     },
@@ -112,7 +114,7 @@
       "price": 310,
       "product_id": 9,
       "category": "Accessories",
-      "image": "https://i.ibb.co/2Fb1Nt9/DC-66.jpg",
+      "image": ["https://i.ibb.co/2Fb1Nt9/DC-66.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Color: Red Blue, Length:120cm, support data, 3 in 1 type, 6A output, OFC copper wires, quick charge, extended cord"
     },
@@ -136,7 +138,7 @@
       "price": 324,
       "product_id": 11,
       "category": "Accessories",
-      "image": "https://i.ibb.co/hRg0vCh/DC-129.jpg",
+      "image": ["https://i.ibb.co/hRg0vCh/DC-129.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Color: Red & Black, Super charge 5A, USB fast charging cable, 1m/3ft, Tough and Durable, Double sheild for data transmission more stable"
     },
@@ -148,7 +150,7 @@
       "price": 324,
       "product_id": 11,
       "category": "Accessories",
-      "image": "https://i.ibb.co/4ppmsXQ/DC-130.jpg",
+      "image": ["https://i.ibb.co/4ppmsXQ/DC-130.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Color: Red & Black, Super charge 5A, USB fast charging cable, 1m/3ft, Tough and Durable, Double sheild for data transmission more stable"
     },
@@ -160,7 +162,7 @@
       "price": 104,
       "product_id": 12,
       "category": "Accessories",
-      "image": "https://i.ibb.co/XtsPw3r/DC-139.jpg",
+      "image": ["https://i.ibb.co/XtsPw3r/DC-139.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Fully compatible, Compatible with most cell phone on the market, Super-fast Charger, Smart upgrade chip fast charging to protect charging equipment, Type-C- Fire prevention, Output SA, Smart chip"
     },
@@ -172,7 +174,7 @@
       "price": 104,
       "product_id": 13,
       "category": "Accessories",
-      "image": "https://i.ibb.co/n3VRLKY/DC-138.jpg",
+      "image": ["https://i.ibb.co/n3VRLKY/DC-138.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Fully compatible, Compatible with most cell phone on the market, Super-fast Charger, Smart upgrade chip fast charging to protect charging equipment, Type-C- Fire prevention, Output SA, Smart chip"
     },
@@ -184,7 +186,7 @@
       "price": 131,
       "product_id": 14,
       "category": "Accessories",
-      "image": "https://i.ibb.co/Sd9ftGC/DC-136.jpg",
+      "image": ["https://i.ibb.co/Sd9ftGC/DC-136.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Output-5A, Cable Length-1000mm, The use of high-quality thickened eccopper core, Strong oxidation resistance, Fast transmission speed, Good charging effect, Fireproof and durable "
     },
@@ -196,7 +198,7 @@
       "price": 131,
       "product_id": 15,
       "category": "Accessories",
-      "image": "https://i.ibb.co/XZfYZnv/DC-135.jpg",
+      "image": ["https://i.ibb.co/XZfYZnv/DC-135.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Smart upgrade chip fast charging to protect charging equipment, Output-5A, Cable Length-1000mm, The use of high-quality thickened eccopper core, Strong oxidation resistance, Fast transmission speed, Good charging effect, Fireproof and durable "
     },
@@ -208,7 +210,7 @@
       "price": 237,
       "product_id": 16,
       "category": "Accessories",
-      "image": "https://i.ibb.co/xz0xpmN/DC-160.jpg",
+      "image": ["https://i.ibb.co/xz0xpmN/DC-160.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Output-5A, Cable Length-1000mm, 5A super-fast charging data cable thick core high conversation rate bottom loss, The braided wiring can prevent entangement, is strong and wear-resistance resist bending and does not break, Two-in-one charging and transmission data transmission stable and fast charging simultaneously"
     },
@@ -220,7 +222,7 @@
       "price": 445,
       "product_id": 17,
       "category": "Accessories",
-      "image": "https://i.ibb.co/7p7tWsz/DC-163.jpg",
+      "image": ["https://i.ibb.co/7p7tWsz/DC-163.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "5A super fast charger fill your device quickly more convenient, LED indicator, High-temperature sterilization, Smart chip after the phone is fully charged, it will automatically detect power failure and cut off the light"
     },
@@ -232,7 +234,7 @@
       "price": 237,
       "product_id": 18,
       "category": "Accessories",
-      "image": "https://i.ibb.co/yY8Sc3J/Dc-159.jpg",
+      "image": ["https://i.ibb.co/yY8Sc3J/Dc-159.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "Output-5A, Cable Length-1000mm, 5A super-fast charging data cable thick core high conversation rate bottom loss, The braided wiring can prevent entangement, is strong and wear-resistance resist bending and does not break, Two-in-one charging and transmission data transmission stable and fast charging simultaneously"
     },
@@ -256,7 +258,7 @@
       "price": 445,
       "product_id": 20,
       "category": "Accessories",
-      "image": "https://i.ibb.co/92PL3YR/DC-162.jpg",
+      "image": ["https://i.ibb.co/92PL3YR/DC-162.jpg"],
       "short_description": "Experience fast charging and high-speed data transfer with our Type-C Cable.",
       "detailed_information": "5A super fast charger fill your device quickly more convenient, LED indicator, High-temperature sterilization, Smart chip after the phone is fully charged, it will automatically detect power failure and cut off the light"
     },
@@ -268,7 +270,7 @@
       "price": 447,
       "product_id": 21,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Listen to the best songs with best headphones",
       "detailed_information": "Color: Gold, Black, Red; Premium diaphragm HIHI & HD , Ergonomic design fits perfectly, silicon earcup, comfortable to use, high fidelity with less signal"
     },
@@ -280,7 +282,7 @@
       "price": 323,
       "product_id": 22,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Listen to the best songs with best headphones",
       "detailed_information": "HD Microphone, compound diaphragm, noise reduction upgrade, line length:1200mm, horn diameter 16mm, plug:3.5mm, comfortable to the ear"
     },
@@ -292,7 +294,7 @@
       "price": 141,
       "product_id": 23,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Listen to the best songs with best headphones",
       "detailed_information": "Metal cavity oblique insertion design strong boss, HD Microphone, metal cavity, comfortable to the ear, compound diaphragm, line length:1200mm, plug:3.5mm"
     },
@@ -304,7 +306,7 @@
       "price": 1577,
       "product_id": 24,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Leather texture comfortable grip stylish atmosphere, Type-C/Micro-USB, 2.4A Fast charging, high-temperature sterilization, ultra-thin, capacity:10000MAH, Input1 DC 5V/2.4A, Input1 DC 5V/2.4A, Output: DC 5V/2.4A, Color:Black, Brown "
     },
@@ -316,7 +318,7 @@
       "price": 205,
       "product_id": 25,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Charge up your devices, anytime, anywhere",
       "detailed_information": "DUAL output Charger- (EU), Type 2USB output charger, Model WC-56, Color:White. 24A output, 360-degree protection, Exquisite shape, fireproof material"
     },
@@ -328,7 +330,7 @@
       "price": 361,
       "product_id": 26,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Charge up your devices, anytime, anywhere",
       "detailed_information": "QC3.0 quick charge(EU), Type QC3.0(single port), Model No: WC-66, Color:White, 18w quick charge, 3A output, full protection with intelligent  IC, safe charging, fireproof material"
     },
@@ -340,7 +342,7 @@
       "price": 361,
       "product_id": 27,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Charge up your devices, anytime, anywhere",
       "detailed_information": "QC3.0 quick charge(EU), Type QC3.0(single port), Model No: WC-66, Color:White, 18w quick charge, 3A output, full protection with intelligent  IC, safe charging, fireproof material"
     },
@@ -352,7 +354,7 @@
       "price": 361,
       "product_id": 28,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Charge up your devices, anytime, anywhere",
       "detailed_information": "QC3.0 quick charge(EU), Type QC3.0(single port), Model No: WC-66, Color:White, 18w quick charge, 3A output, full protection with intelligent  IC, safe charging, fireproof material"
     },
@@ -364,7 +366,7 @@
       "price": 522,
       "product_id": 29,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Charge up your devices, anytime, anywhere",
       "detailed_information": "Wail charger with dual quick charge PD-QC3.0 charger (EU), Type: support both PD& QC:3.0 quick charge, Model No:WC-76, Color:white, 20w quick charge, 3A output, anti broken ABS material, full protection,fire proof"
     },
@@ -376,7 +378,7 @@
       "price": 1577,
       "product_id": 30,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Leather texture comfortable grip stylish atmosphere, Type-C/Micro-USB, 2.4A Fast charging, high-temperature sterilization, ultra-thin, capacity:10000MAH, Input1 DC 5V/2.4A, Input1 DC 5V/2.4A, Output: DC 5V/2.4A, Color:Black, Brown "
     },
@@ -388,7 +390,7 @@
       "price": 1258,
       "product_id": 31,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Capacity:10000mAh, Input 5V-2.4A, Output:5v-2.4A, Input port: Type-C/Micro, USBlrocicator 4LED ligth, Rated capacity:5.6 Ah"
     },
@@ -400,7 +402,7 @@
       "price": 1258,
       "product_id": 32,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Capacity:20000mAh, Input 5V-2.4A, Output:5v-2.4A, Input port: Type-C/Micro, USBlrocicator 4LED ligth, Rated capacity:76 WH"
     },
@@ -412,7 +414,7 @@
       "price": 1298,
       "product_id": 33,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Type with Type C & micro cable, Model No:PB-87, Output:5v-2.4A, Color:White/black, 10000mAh capactiy, small size, portable design, AUTO ID, smart current, full protection: OVP/OCP/SCP, compatible with all phones"
     },
@@ -424,7 +426,7 @@
       "price": 1161,
       "product_id": 34,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "LED digital display portable charge, high compatible dual input charging, long asting high capacity for most digital products, 2 USB output ports, allows simultaneous charging of 2 devices, output: DC 5v/2.4A, Input DC 5V/2.4A, Rated capacity: 6.5Ah, Caapcity 10000mAh, Type-C/Micro"
     },
@@ -436,7 +438,7 @@
       "price": 2623,
       "product_id": 35,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Fully compatible, Mode: PB-92, Capacity: 30000MAH, Rated Capacity: 18.6MAH(IIIWH), Input: Micro/Lighning/ Type-C (DC5V/2A), Output: DC5v/2.1A, Color: white, black; Shell:material:pc"
     },
@@ -448,7 +450,7 @@
       "price": 2192,
       "product_id": 36,
       "category": "Accessories",
-      "image": "",
+      "image": [""],
       "short_description": "Keep your phone running with the best powerbank",
       "detailed_information": "Mode: PB-93, Capacity: 10000mAh, Micro USB Input: 5V-2A/9V-2A Type-C, In/Output: 5V-3A/9V-2A/12V-15, AOutput: 5V-4.5A/45V-5A/5V-3A/9V-2A/12V-1.5AInput, Port-Type-C/Micro, USBIncicator: LED display, Rated Capacity: 37, WnSupport: super charge, VC, QC3.0"
     },
