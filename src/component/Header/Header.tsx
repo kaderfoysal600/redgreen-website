@@ -48,17 +48,18 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <Link to='/'>
-        <div className="flex items-center gap-2" >
-          <img src={logo} className="w-32 h-auto" alt="" />
-        </div>
+        <Link to="/">
+          <div className="flex items-center gap-2">
+            <img src={logo} className="w-32 h-auto" alt="" />
+          </div>
         </Link>
-  
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="px-1 flex items-center gap-8 ">
           <li className="group/item min-h-[38px] mt-5 hover:border-b-[2px] border-rose-600  cursor-pointer">
-            <a className=" ">Laptop</a>
+            <Link to="/laptop">
+              <a>Laptop</a>
+            </Link>
             <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
               <div className="series-slide-card-container flex align-center justify-center gap-10">
                 <div className="series-slide-card flex items-center flex-col justify-center">
@@ -113,10 +114,14 @@ const Header = () => {
             </div>
           </li>
           <li className="group/item min-h-[32px] mt-2 cursor-pointer">
-            <Link to='/phone'>
-            <a>Phones</a>
+            <Link to="/phone">
+              <a>Phones</a>
             </Link>
-  
+          </li>
+          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
+            <Link to="/tv">
+              <a>TV</a>
+            </Link>
           </li>
           <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Audio</a>

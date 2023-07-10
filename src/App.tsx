@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Phone from "./pages/Phone";
 import ProductDetails from "./pages/ProductDetails";
 import Footer from "./component/Footer/Footer";
+import Laptop from "./pages/Laptop";
+import Tv from "./pages/Tv";
 
 // const router = createBrowserRouter([
 //   {
@@ -50,6 +52,8 @@ function App() {
             ></Route>
 
             <Route path="/phone" element={<Phone />}></Route>
+            <Route path="/laptop" element={<Laptop />}></Route>
+            <Route path="/tv" element={<Tv />}></Route>
           </Routes>
           <Footer />
         </div>

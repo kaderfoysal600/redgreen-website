@@ -7,7 +7,7 @@ import { products } from "../product.json";
 const Phone = () => {
   console.log("products", products);
   const filteredProducts = products.filter((item: any) => {
-    return item.category === "Phone";
+    return item.category === "Tv";
   });
   return (
     <div>
