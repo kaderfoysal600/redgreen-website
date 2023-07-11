@@ -80,11 +80,13 @@ const Header = () => {
                 {laptop.map((item: any) => {
                   return (
                     <div className="series-slide-card flex items-center flex-col justify-center">
+
                       <li>
                         <Link to="/laptop">
                           <a>Laptop</a>
                         </Link>
                       </li>
+
                       {item?.image.length === 0 ? (
                         <img
                           className="max-w-[120px] object-cover"

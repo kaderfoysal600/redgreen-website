@@ -5,7 +5,7 @@ const DeviceProduct = ({ phoneProduct }: any) => {
   console.log("phoneProduct", phoneProduct);
 
   return (
-    <div className="mt-6 grid grid-cols-4 gap-8 container m-auto">
+    <div className="mt-6 grid lg:grid-cols-4 grid-cols-1 gap-8 container m-auto">
       {phoneProduct.map((item: any) => {
         return (
           <div className="product-cared bg-white shadow-md flex flex-col items-center justify-center gap-4 p-4">
@@ -16,12 +16,9 @@ const DeviceProduct = ({ phoneProduct }: any) => {
               <span>₹29,999</span>
             </p>
             <div className="buttons flex items-center justify-center gap-2">
-              <a
-                href=""
-                className="px-4 py-2 bg-black text-white rounded-[10px]"
-              >
-                Buy now
-              </a>
+              <Link to={`/product-details/${item.slug}`}>
+                <button className="btn btn-neutral">Buy Now</button>
+              </Link>
 
               <Link to={`/product-details/${item.slug}`}>
                 <button className="btn btn-outline">Learn More</button>

@@ -2,7 +2,7 @@ import redgreen from "../../assets/brand/REDGREEN2.png";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <footer className="mt-12 flex flex-col gap-2 items-center justify-center bg-white p-20 border-t-2 border-[#6e6e73]">
+    <footer className="mt-12 flex flex-col gap-2 items-center justify-center bg-white lg:p-20 p-5 border-t-2 border-[#6e6e73]">
       <img className="w-[180px]" src={redgreen} alt="" />
       <div className="my-4 icon-container flex items-center gap-4">
         <a href="" className="group/item">
@@ -52,7 +52,7 @@ const Footer = () => {
         <a href="">PRIVACY</a>
         <a href="">GET IN TOUCH</a>
       </div>
-      <div className="copyright text-sm">
+      <div className="copyright text-sm text-center">
         <p>&copy; 2023 REDGREEN Technology Limited All right reserved</p>
       </div>
     </footer>
