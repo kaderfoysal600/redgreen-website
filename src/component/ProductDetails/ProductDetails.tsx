@@ -17,8 +17,8 @@ const ProductDetails = ({ product }: any) => {
     img4: `${product.image[3]}`,
   });
 
-  const [activeImg, setActiveImage] = useState(images.img1);
-  const [activeImg2, setActiveImage2] = useState(images2.img1);
+  const [activeImg, setActiveImage] = useState(images?.img1);
+  const [activeImg2, setActiveImage2] = useState(images2?.img1);
 
   // const [amount, setAmount] = useState(1);
 
