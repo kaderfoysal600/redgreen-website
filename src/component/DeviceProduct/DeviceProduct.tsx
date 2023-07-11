@@ -16,10 +16,7 @@ const DeviceProduct = ({ phoneProduct }: any) => {
               <span>₹29,999</span>
             </p>
             <div className="buttons flex items-center justify-center gap-2">
-              <Link
-                className="px-4 py-2 bg-black text-white rounded-[10px]"
-                to={`/product-details/${item.slug}`}
-              >
+              <Link to={`/product-details/${item.slug}`}>
                 <button className="btn btn-neutral">Buy Now</button>
               </Link>
 
