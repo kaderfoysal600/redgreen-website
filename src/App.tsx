@@ -7,6 +7,8 @@ import ProductDetails from "./pages/ProductDetails";
 import Footer from "./component/Footer/Footer";
 import Laptop from "./pages/Laptop";
 import Tv from "./pages/Tv";
+import { useEffect } from "react";
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 
 // const router = createBrowserRouter([
 //   {
@@ -38,6 +40,9 @@ import Tv from "./pages/Tv";
 // ]);
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {

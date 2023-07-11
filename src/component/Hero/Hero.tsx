@@ -106,7 +106,7 @@ const Hero = (productData: any) => {
               <div className="section-2-1 flex flex-col justify-between ">
                 <div className="section-2-left-top">
                   <p className="text-2xl lg:mb-2">With Free Gift</p>
-                  <h2 className="text-4xl truncate max-w-[400px] overflow-hidden">
+                  <h2 className="text-4xl truncate lg:max-w-[400px] max-w-[330px] overflow-hidden">
                     {item.name} <span>5G</span>
                   </h2>
                 </div>
