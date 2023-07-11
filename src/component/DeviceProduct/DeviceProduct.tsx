@@ -5,7 +5,7 @@ const DeviceProduct = ({ phoneProduct }: any) => {
   console.log("phoneProduct", phoneProduct);
 
   return (
-    <div className="mt-6 grid grid-cols-4 gap-8 container m-auto">
+    <div className="mt-6 grid lg:grid-cols-4 grid-cols-1 gap-8 container m-auto">
       {phoneProduct.map((item: any) => {
         return (
           <div className="product-cared bg-white shadow-md flex flex-col items-center justify-center gap-4 p-4">
