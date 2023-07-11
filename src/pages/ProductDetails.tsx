@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import ProductDetailsComponent from "../component/ProductDetails/ProductDetails";
 import { products } from "../product.json";
+import { useEffect, useState } from "react";
 const ProductDetails = () => {
   const { productSlug } = useParams();
   console.log("products", products);
@@ -11,9 +12,17 @@ const ProductDetails = () => {
   });
   console.log("thisProduct, ", thisProduct);
 
+  const [shouldRenderComponent, setShouldRenderComponent] = useState(false);
+
+  useEffect(() => {
+    setShouldRenderComponent(true);
+  }, []);
+
   return (
     <div>
-      <ProductDetailsComponent product={thisProduct} />
+      {shouldRenderComponent && (
+        <ProductDetailsComponent product={thisProduct} />
+      )}
     </div>
   );
 };
