@@ -75,11 +75,18 @@ const Header = () => {
             <Link to="/laptop">
               <a>Laptop</a>
             </Link>
-            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+            <div className="group-hover/item:visible group-hover/item:h-60 transition duration-1000 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
               <div className="series-slide-card-container flex align-center justify-center gap-10">
                 {laptop.map((item: any) => {
                   return (
                     <div className="series-slide-card flex items-center flex-col justify-center">
+
+                      <li>
+                        <Link to="/laptop">
+                          <a>Laptop</a>
+                        </Link>
+                      </li>
+
                       {item?.image.length === 0 ? (
                         <img
                           className="max-w-[120px] object-cover"
