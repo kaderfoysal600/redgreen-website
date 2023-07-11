@@ -1,10 +1,25 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./Header.css";
 import logo from "/src/assets/brand/REDGREEN2.png";
 import demoProduct from "../../../src/assets/product.webp";
 import profile from "../../../src/assets/kaderfoysal.jpg";
 import { Link } from "react-router-dom";
-
+import { products } from "../../product.json";
+import { useEffect, useState } from "react";
 const Header = () => {
+  const [phone, setPhone] = useState(products);
+  const [laptop, setLaptop] = useState(products);
+  const [tv, setTv] = useState(products);
+
+  useEffect(() => {
+    setPhone(products.filter((item) => item.category == "Phone"));
+    setLaptop(products.filter((item) => item.category == "Laptop"));
+    setTv(products.filter((item) => item.category == "Tv"));
+    console.log("phone", phone);
+    console.log("laptop", laptop);
+    console.log("tv", tv);
+  }, []);
+
   return (
     <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea] z-[100000] relative">
       <div className="navbar-start">
@@ -60,71 +75,93 @@ const Header = () => {
             <Link to="/laptop">
               <a>Laptop</a>
             </Link>
-            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+            <div className="group-hover/item:visible group-hover/item:h-60 transition duration-1000 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
               <div className="series-slide-card-container flex align-center justify-center gap-10">
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
-                <div className="series-slide-card flex items-center flex-col justify-center">
-                  <img
-                    className="max-w-[120px] object-cover"
-                    src={demoProduct}
-                    alt=""
-                  />
-                  <div className="text">Demo Product</div>
-                </div>
+                {laptop.map((item: any) => {
+                  return (
+                    <div className="series-slide-card flex items-center flex-col justify-center">
+                      <li>
+                        <Link to="/laptop">
+                          <a>Laptop</a>
+                        </Link>
+                      </li>
+                      {item?.image.length === 0 ? (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={demoProduct}
+                          alt=""
+                        />
+                      ) : (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={item.image[0]}
+                          alt=""
+                        />
+                      )}
+                      <div className="text-center">{item?.name}</div>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </li>
-          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
+          <li className="group/item min-h-[38px] mt-5 hover:border-b-[2px] border-rose-600  cursor-pointer">
             <Link to="/phone">
-              <a>Phones</a>
+              <a>Phone</a>
             </Link>
+            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+              <div className="series-slide-card-container flex align-center justify-center gap-10">
+                {phone.map((item: any) => {
+                  return (
+                    <div className="series-slide-card flex items-center flex-col justify-center">
+                      {item?.image.length === 0 ? (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={demoProduct}
+                          alt=""
+                        />
+                      ) : (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={item.image[0]}
+                          alt=""
+                        />
+                      )}
+                      <div className="text-center">{item?.name}</div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </li>
-          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
+          <li className="group/item min-h-[38px] mt-5 hover:border-b-[2px] border-rose-600  cursor-pointer">
             <Link to="/tv">
-              <a>TV</a>
+              <a>Tv</a>
             </Link>
-          </li>
-          <li className="group/item min-h-[32px] mt-2 cursor-pointer">
-            <a>Audio</a>
+            <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl py-8 border-b border-[#eaeaea]">
+              <div className="series-slide-card-container flex align-center justify-center gap-10">
+                {tv.map((item: any) => {
+                  return (
+                    <div className="series-slide-card flex items-center flex-col justify-center">
+                      {item?.image.length === 0 ? (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={demoProduct}
+                          alt=""
+                        />
+                      ) : (
+                        <img
+                          className="max-w-[120px] object-cover"
+                          src={item.image[0]}
+                          alt=""
+                        />
+                      )}
+                      <div className="text-center">{item?.name}</div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </li>
           <li className="group/item min-h-[32px] mt-2 cursor-pointer">
             <a>Accessories</a>
@@ -135,7 +172,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex-none">
-        <div className="dropdown dropdown-end">
+        {/* <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <div className="indicator">
               <svg
@@ -167,7 +204,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
