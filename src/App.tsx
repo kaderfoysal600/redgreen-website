@@ -9,6 +9,7 @@ import Laptop from "./pages/Laptop";
 import Tv from "./pages/Tv";
 import { useEffect } from "react";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import Accessories from "./pages/Accessories";
 
 // const router = createBrowserRouter([
 //   {
@@ -59,6 +60,7 @@ function App() {
             <Route path="/phone" element={<Phone />}></Route>
             <Route path="/laptop" element={<Laptop />}></Route>
             <Route path="/tv" element={<Tv />}></Route>
+            <Route path="/accessories" element={<Accessories />}></Route>
           </Routes>
           <Footer />
         </div>

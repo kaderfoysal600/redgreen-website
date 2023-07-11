@@ -49,21 +49,30 @@ const Header = () => {
             className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <Link to="/laptop">
+                <a>Laptop</a>
+              </Link>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <Link to="/phone">
+                <a>Phone</a>
+              </Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link to="/tv">
+                <a>Tv</a>
+              </Link>
+            </li>
+            <li>
+              <Link to="/accessories">
+                <a>Accessories</a>
+              </Link>
+            </li>
+
+            <li>
+              <Link to="/offer">
+                <a>Offers</a>
+              </Link>
             </li>
           </ul>
         </div>

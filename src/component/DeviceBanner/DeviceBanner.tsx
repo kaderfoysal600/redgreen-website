@@ -32,12 +32,43 @@ const DeviceBanner = () => {
         <SwiperSlide>
           <div className="slider-elm relative">
             <img src={phoneBanner1} alt="" />
-            <div className="banner-text  pt-8 absolute bottom-[20%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
-              <h6 className="text-2xl text-slate-200 ">
+            <div className="banner-text  pt-8 absolute lg:bottom-[20%] bottom-[15%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
+              <h6 className="lg:text-2xl text-xl text-slate-200 ">
                 Max Performance, Max Storage
               </h6>
-              <h2 className="text-5xl font-medium text-slate-200">Redmi 12C</h2>
-              <h4 className="text-slate-200 text-2xl mt-4">
+              <h2 className="lg:text-5xl text-3xl font-medium text-slate-200">
+                Redmi 12C
+              </h2>
+              <h4 className="text-slate-200 lg:text-2xl text-xl lg:mt-4 mt-2">
+                Get Cart Discount of ₹600 <br />
+                From ₹7,899*
+              </h4>
+
+              <div className="flex items-center gap-2">
+                <button className="mt-4 btn text-base px-8 font-medium bg-white">
+                  Buy Now
+                </button>
+                {/* <a
+                  href=""
+                  className="text-[#2997ff] hover:underline underline-offset-4"
+                >
+                  {" Learn More >"}
+                </a> */}
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slider-elm relative">
+            <img src={phoneBanner2} alt="" />
+            <div className="banner-text  pt-8 absolute lg:bottom-[20%] bottom-[15%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
+              <h6 className="lg:text-2xl text-xl text-slate-200 ">
+                Max Performance, Max Storage
+              </h6>
+              <h2 className="lg:text-5xl text-3xl font-medium text-slate-200">
+                Redmi 12C
+              </h2>
+              <h4 className="text-slate-200 lg:text-2xl text-xl lg:mt-4 mt-2">
                 Get Cart Discount of ₹600 <br />
                 From ₹7,899*
               </h4>
@@ -59,12 +90,14 @@ const DeviceBanner = () => {
         <SwiperSlide>
           <div className="slider-elm relative">
             <img src={phoneBanner3} alt="" />
-            <div className="banner-text  pt-8 absolute bottom-[20%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
-              <h6 className="text-2xl text-slate-200 ">
+            <div className="banner-text  pt-8 absolute lg:bottom-[20%] bottom-[15%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
+              <h6 className="lg:text-2xl text-xl text-slate-200 ">
                 Max Performance, Max Storage
               </h6>
-              <h2 className="text-5xl font-medium text-slate-200">Redmi 12C</h2>
-              <h4 className="text-slate-200 text-2xl mt-4">
+              <h2 className="lg:text-5xl text-3xl font-medium text-slate-200">
+                Redmi 12C
+              </h2>
+              <h4 className="text-slate-200 lg:text-2xl text-xl lg:mt-4 mt-2">
                 Get Cart Discount of ₹600 <br />
                 From ₹7,899*
               </h4>
@@ -74,38 +107,11 @@ const DeviceBanner = () => {
                   Buy Now
                 </button>
                 {/* <a
-        href=""
-        className="text-[#2997ff] hover:underline underline-offset-4"
-      >
-        {" Learn More >"}
-      </a> */}
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider-elm relative">
-            <img src={phoneBanner2} alt="" />
-            <div className="banner-text  pt-8 absolute bottom-[20%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
-              <h6 className="text-2xl text-slate-200 ">
-                Max Performance, Max Storage
-              </h6>
-              <h2 className="text-5xl font-medium text-slate-200">Redmi 12C</h2>
-              <h4 className="text-slate-200 text-2xl mt-4">
-                Get Cart Discount of ₹600 <br />
-                From ₹7,899*
-              </h4>
-
-              <div className="flex items-center gap-2">
-                <button className="mt-4 btn text-base px-8 font-medium bg-white">
-                  Buy Now
-                </button>
-                {/* <a
-        href=""
-        className="text-[#2997ff] hover:underline underline-offset-4"
-      >
-        {" Learn More >"}
-      </a> */}
+                  href=""
+                  className="text-[#2997ff] hover:underline underline-offset-4"
+                >
+                  {" Learn More >"}
+                </a> */}
               </div>
             </div>
           </div>
@@ -113,12 +119,14 @@ const DeviceBanner = () => {
         <SwiperSlide>
           <div className="slider-elm relative">
             <img src={phoneBanner1} alt="" />
-            <div className="banner-text  pt-8 absolute bottom-[20%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
-              <h6 className="text-2xl text-slate-200 ">
+            <div className="banner-text  pt-8 absolute lg:bottom-[20%] bottom-[15%] lg:left-[10%] left-[5%] px-4 py-3 flex  justify-center flex-col gap-2">
+              <h6 className="lg:text-2xl text-xl text-slate-200 ">
                 Max Performance, Max Storage
               </h6>
-              <h2 className="text-5xl font-medium text-slate-200">Redmi 12C</h2>
-              <h4 className="text-slate-200 text-2xl mt-4">
+              <h2 className="lg:text-5xl text-3xl font-medium text-slate-200">
+                Redmi 12C
+              </h2>
+              <h4 className="text-slate-200 lg:text-2xl text-xl lg:mt-4 mt-2">
                 Get Cart Discount of ₹600 <br />
                 From ₹7,899*
               </h4>
@@ -128,11 +136,11 @@ const DeviceBanner = () => {
                   Buy Now
                 </button>
                 {/* <a
-        href=""
-        className="text-[#2997ff] hover:underline underline-offset-4"
-      >
-        {" Learn More >"}
-      </a> */}
+                  href=""
+                  className="text-[#2997ff] hover:underline underline-offset-4"
+                >
+                  {" Learn More >"}
+                </a> */}
               </div>
             </div>
           </div>
