@@ -63,9 +63,9 @@ const ProductDetails = ({ product }: any) => {
           <img
             src={activeImg}
             alt=""
-            className="w-full h-full aspect-square object-cover rounded-xl max-w-[500px] m-auto"
+            className="w-full h-full aspect-square object-cover rounded-xl max-w-[400px] m-auto"
           />
-          <div className="flex flex-row justify-between h-24 max-w-[600px] m-auto w-full">
+          <div className="flex flex-row justify-between h-24 max-w-[500px] m-auto w-full">
             <img
               src={images.img1}
               alt=""

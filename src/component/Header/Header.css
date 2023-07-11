@@ -1,16 +1,3 @@
-/* .series-slide::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-} */
-/* .series-slide {
-  transition: 0.3s linear all;
-} */
-
 .series-slide {
   border-top: 1px solid #eaeaea !important;
 }
@@ -26,16 +13,3 @@
 .navbar-start {
   width: auto !important;
 }
-
-/* .navbar-center > ui > li::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 9pt;
-  background: #f50514;
-  height: 1px;
-  width: 0;
-  z-index: 200;
-  transition: all 0.2s cubic-bezier(0.5, 0.15, 0, 1);
-}
- */
