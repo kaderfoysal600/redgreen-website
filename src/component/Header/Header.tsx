@@ -25,7 +25,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea] z-[10000000000] absolute">
+    <div className="navbar bg-base-100 border-b-[1px] border-[#eaeaea]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
