@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ProductDetailPic = ({ product }: any) => {
   console.log("product123", product);
