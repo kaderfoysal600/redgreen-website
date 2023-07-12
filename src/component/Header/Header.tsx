@@ -11,7 +11,6 @@ const Header = () => {
   const [laptop, setLaptop] = useState(products);
   const [tv, setTv] = useState(products);
   const [accessories, setAccessories] = useState(products);
-
   useEffect(() => {
     setPhone(products.filter((item) => item.category == "Phone"));
     setLaptop(products.filter((item) => item.category == "Laptop"));
@@ -156,7 +155,7 @@ const Header = () => {
             </Link>
             <div className="group-hover/item:visible group-hover/item:h-60 invisible h-0 w-full min-w-full series-slide absolute z-50 bg-white top-16 left-0  max-w-5xl pt-2 pb-8 border-b border-[#eaeaea] flex items-center justify-center">
               <div className="series-slide-card-container flex align-center justify-center gap-10">
-                {phone.map((item: any) => {
+                {tv.map((item: any) => {
                   return (
                     <Link to={`/product-details/${item.slug}`}>
                       <div className="series-slide-card max-w-[230px] flex items-center flex-col justify-center">

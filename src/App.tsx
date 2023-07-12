@@ -9,36 +9,6 @@ import Laptop from "./pages/Laptop";
 import Tv from "./pages/Tv";
 import { useEffect } from "react";
 import Accessories from "./pages/Accessories";
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />,
-//     children: [
-//       // {
-//       //   path: "/",
-//       //   element: <Home />,
-//       // },
-//       // {
-//       //   path: "/calculator",
-//       //   element: <Calculator />,
-//       // },
-//     ],
-//   },
-//   // {
-//   //   path: "*",
-//   //   element: <Errorpage />,
-//   // },
-//   {
-//     path: "/phone",
-//     element: <Phone />,
-//   },
-//   {
-//     path: "/product-details",
-//     element: <ProductDetails />,
-//   },
-// ]);
-
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);

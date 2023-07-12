@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ProductDetailPic = ({ product }: any) => {
-  console.log("product123", product);
+  console.log("Product: ", product);
 
   const [images] = useState({
     img1: "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1641441332.80624656.png",
@@ -21,7 +21,7 @@ const ProductDetailPic = ({ product }: any) => {
   const [activeImg2, setActiveImage2] = useState(images2.img1);
 
   return (
-    <div>
+    <>
       {product.image ? (
         <div className="flex flex-col gap-6 lg:w-2/4">
           <img
@@ -91,7 +91,7 @@ const ProductDetailPic = ({ product }: any) => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
