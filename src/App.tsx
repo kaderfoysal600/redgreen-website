@@ -8,7 +8,6 @@ import Footer from "./component/Footer/Footer";
 import Laptop from "./pages/Laptop";
 import Tv from "./pages/Tv";
 import { useEffect } from "react";
-import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 import Accessories from "./pages/Accessories";
 
 // const router = createBrowserRouter([
