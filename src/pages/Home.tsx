@@ -16,6 +16,6 @@ const Home = () => {
 };
 
 export default Home;
-function fetchPhone() {
-  throw new Error("Function not implemented.");
-}
+// function fetchPhone() {
+//   throw new Error("Function not implemented.");
+// }
